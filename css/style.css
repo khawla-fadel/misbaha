@@ -1,0 +1,148 @@
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+   /* background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;*/
+    
+}
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+.site-logo {
+    position: absolute; 
+    top: 0%; 
+    right:0px;
+    
+}
+
+        
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/9.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+
+/*.card-body{
+    background-color: rgb(189, 231, 133);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 9px #999;
+}*/
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body,.container h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/*.select{
+    font-style: italic;
+   
+    text-align: center;
+    
+    border-radius: 4px;
+    font-size:1rem;
+    margin: 1rem;
+    min-width: 100px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
+    background-color: bisque;
+}*/
+
+.counter {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-inline: 50%;
+}
+
+
+#increment-btn
+{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 120px;
+    padding: 5% 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: #2e8d46;
+    border: 2px solid #2e8d46;
+    color: white;
+    margin: left 3px;
+    margin: right 10px;
+    box-shadow: 0 9px #888787;
+}
+
+#reset {
+    text-align: center;
+    align-content: center;
+    align-items:center;
+    height: 50px;
+    width: 120px;
+    padding: 5% 30px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-size: 20px;
+    background-color: #f11f1f;
+    border: 2px solid #737573;
+    color: white;
+    margin: 20px;
+    box-shadow: 0 9px #888787;
+   
+}
+.button:hover {background-color: #3e8e41}
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  
+  
+
+#counter-value {
+    height: 50px;
+    min-width: 120px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    margin-top: 20px;
+    font-size: 30px;
+    color: #353434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

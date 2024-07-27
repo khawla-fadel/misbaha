@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+#form-main{
+	width:100%;
+	float:left;
+    text-align: center;
+	padding-top:0px;
+    padding-bottom: 40%;
+    padding-right: 10%;
+    padding-left: 0%;
+}
+
+#form-div {
+    text-align: center;
+	background-color:rgba(72,72,72,0.4);
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	width: 450px;
+	float: right;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -90px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+
+
+
+/*@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}*/
